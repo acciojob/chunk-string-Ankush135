@@ -1,4 +1,4 @@
-function stringChop(str, size) {
+function chunkString(str, size) {
   // your code here
 	if (str === null || str === "") {
 		return [];
@@ -17,4 +17,4 @@ function stringChop(str, size) {
 // Do not change the code below
 const str = prompt("Enter String.");
 const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
+alert(chunkString(str, size));
